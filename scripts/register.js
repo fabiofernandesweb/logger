@@ -1,5 +1,5 @@
 
-var register = document.getElementsById("register");
+var register = document.getElementById("register");
 
 register.addEventListener("click", function(){
 
@@ -9,7 +9,7 @@ register.addEventListener("click", function(){
     
     sessionStorage.setItem("name", name);
     sessionStorage.setItem("user", user);
-    sessionStorage.setItem("password", password);
+    sessionStorage.setItem("password", passowrd);
 
     alert("Usuário cadastrado com sucesso!");
 
